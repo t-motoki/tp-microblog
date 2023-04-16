@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { Inter } from 'next/font/google';
-import { client } from '../libs/micro-cms-client';
-import { Blog } from '../cores/entitis/models/blog';
+import { client } from '../libs/entitis/micro-cms-client';
+import { Blog } from '../libs/entitis/models/blog';
 import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin'] });
